@@ -15,10 +15,8 @@ import json
 from datetime import datetime
 from openai import OpenAI
 
-# ─── Configuração da API ───────────────────────────────────────────────────────
+#  Configuração da API
 # Nunca exponha a chave diretamente no código.
-# Configure a variável de ambiente:  export OPENAI_API_KEY="sk-..."
-# No Google Colab use: from google.colab import userdata; os.environ["OPENAI_API_KEY"] = userdata.get("OPENAI_API_KEY")
 
 def get_client() -> OpenAI:
     api_key = os.environ.get("OPENAI_API_KEY")
@@ -31,7 +29,7 @@ def get_client() -> OpenAI:
     return OpenAI(api_key=api_key)
 
 
-# ─── System Prompt (contexto GoodWe) ──────────────────────────────────────────
+# System Prompt (contexto GoodWe)
 SYSTEM_PROMPT = """
 Você é o GoodWe EV ChargeOps Assistant, um assistente operacional inteligente
 desenvolvido para o EV Challenge 2026 da GoodWe Brazil.
@@ -84,7 +82,7 @@ Usuário: "Como configurar o limite de potência para 3 carregadores simultâneo
 Assistente: "Para configurar o balanceamento de potência entre 3 carregadores simultâneos, acesse: Configurações > Gerenciamento de Carga > Modo Compartilhado. Defina a potência total disponível do quadro (ex: 22 kW) e o sistema distribuirá automaticamente entre os carregadores ativos. Recomendo usar o modo 'Equalizado' para distribuição igualitária ou 'Prioridade' se algum morador tiver prioridade especificada em convenção."
 """
 
-# ─── Classe principal do Chatbot ───────────────────────────────────────────────
+# Classe principal do Chatbot 
 
 class GoodWeChargeBot:
     """
@@ -166,7 +164,7 @@ class GoodWeChargeBot:
         }
 
 
-# ─── Interface de terminal ─────────────────────────────────────────────────────
+#  Interface de terminal 
 
 BANNER = """
 ╔══════════════════════════════════════════════════════════════╗
