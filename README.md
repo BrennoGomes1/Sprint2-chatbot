@@ -44,20 +44,19 @@ A GoodWe identificou que condomínios com múltiplos carregadores compartilhados
 ##  Estrutura do projeto
 
 ```
-goodwe-chatbot/
-├── src/
-│   └── chatbot.py                          # Chatbot principal (terminal)
-├── tests/
-│   └── run_tests.py                        # Script de execução dos 5 casos de teste
+Sprint2-chatbot/
 ├── docs/
-│   ├── resultados_testes.md                # Resultados documentados (Sprint 2)
-│   ├── perguntas_respostas.md              # Modelo de Q&A (Sprint 1)
-│   └── fluxograma.mmd                      # Fluxograma do sistema (Sprint 1)
+│   └── resultados_testes.md               
 ├── prompts/
-│   └── system_prompt.txt                   # System prompt isolado
-├── GoodWe_EV_ChargeOps_Chatbot_Sprint2.ipynb  # Notebook Google Colab
-├── requirements.txt
-└── README.md
+│   └── system_prompt.txt                 
+├── src/
+│   └── chatbot.py                       
+├── tests/
+│   └── run_tests.py                     
+├── GoodWe_EV_ChargeOps_Chatbot_Sprint2.ipynb # Notebook Google Colab
+├── README.md
+└── requirements.txt
+
 ```
 
 ---
