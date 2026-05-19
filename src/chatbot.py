@@ -31,7 +31,7 @@ def get_client() -> OpenAI:
     return OpenAI(api_key=api_key)
 
 
-# ─── System Prompt (contexto GoodWe) ──────────────────────────────────────────
+# System Prompt (contexto GoodWe) 
 SYSTEM_PROMPT = """
 Você é o GoodWe EV ChargeOps Assistant, um assistente operacional inteligente
 desenvolvido para o EV Challenge 2026 da GoodWe Brazil.
