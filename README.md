@@ -1,6 +1,6 @@
 #  GoodWe EV ChargeOps Assistant — Sprint 2
 
-**EV Challenge 2026 | GoodWe Brazil**
+**EV Challenge 2026 | GoodWe**
 
 Chatbot operacional com IA para gestão de eletropostos em condomínios, com suporte a síndicos, moradores e técnicos de manutenção.
 
