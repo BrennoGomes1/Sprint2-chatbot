@@ -1,6 +1,6 @@
 #  GoodWe EV ChargeOps Assistant — Sprint 2
 
-**EV Challenge 2026 | GoodWe Brazil**
+**EV Challenge 2026 | GoodWe **
 
 Chatbot operacional com IA para gestão de eletropostos em condomínios, com suporte a síndicos, moradores e técnicos de manutenção.
 
@@ -38,27 +38,6 @@ A GoodWe identificou que condomínios com múltiplos carregadores compartilhados
 - ✅ **Exportação de sessão** — log JSON automático da conversa
 - ✅ **Interface terminal** com comandos especiais (`/reset`, `/export`, `/stats`, `/sair`)
 - ✅ **Notebook Google Colab** pronto para uso
-
----
-
-##  Estrutura do projeto
-
-```
-goodwe-chatbot/
-├── src/
-│   └── chatbot.py                          # Chatbot principal (terminal)
-├── tests/
-│   └── run_tests.py                        # Script de execução dos 5 casos de teste
-├── docs/
-│   ├── resultados_testes.md                # Resultados documentados (Sprint 2)
-│   ├── perguntas_respostas.md              # Modelo de Q&A (Sprint 1)
-│   └── fluxograma.mmd                      # Fluxograma do sistema (Sprint 1)
-├── prompts/
-│   └── system_prompt.txt                   # System prompt isolado
-├── GoodWe_EV_ChargeOps_Chatbot_Sprint2.ipynb  # Notebook Google Colab
-├── requirements.txt
-└── README.md
-```
 
 ---
 
